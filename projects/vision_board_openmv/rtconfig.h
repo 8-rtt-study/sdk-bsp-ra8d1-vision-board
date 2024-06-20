@@ -185,6 +185,8 @@
 
 /* Interprocess Communication (IPC) */
 
+#define RT_USING_POSIX_PIPE
+#define RT_USING_POSIX_PIPE_SIZE 512
 
 /* Socket is in the 'Network' category */
 
@@ -251,6 +253,7 @@
 
 /* Utilities */
 
+#define RT_USING_RESOURCE_ID
 
 /* RT-Thread Utestcases */
 
@@ -259,6 +262,14 @@
 
 /* IoT - internet of things */
 
+#define PKG_USING_PAHOMQTT
+#define PAHOMQTT_PIPE_MODE
+#define PKG_USING_PAHOMQTT_EXAMPLE
+#define PKG_USING_PAHOMQTT_TEST
+#define RT_PKG_MQTT_THREAD_STACK_SIZE 4096
+#define PKG_PAHOMQTT_SUBSCRIBE_HANDLERS 1
+#define MQTT_DEBUG
+#define PKG_USING_PAHOMQTT_LATEST
 
 /* Wi-Fi */
 
@@ -392,6 +403,9 @@
 /* HAL & SDK Drivers */
 
 /* STM32 HAL & SDK Drivers */
+
+
+/* Infineon HAL Packages */
 
 
 /* Kendryte SDK */
