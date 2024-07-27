@@ -1,3 +1,3 @@
 [submodule "projects/vision_board_openmv/packages/pahomqtt-latest"]
 	path = projects/vision_board_openmv/packages/pahomqtt-latest
-	url = https://github.com/vangao-gg/paho-mqtt.git
+	url = https://github.com/vangao-gg/pahomqtt-latest.git
